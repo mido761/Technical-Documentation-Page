@@ -1,0 +1,29 @@
+
+body{
+    grid-template-columns: 1fr 2fr;
+}
+main{
+    border: 5px solid rgb(153, 22, 22);
+    position: absolute;
+    top: 0px;
+    margin-left: 33.5%;
+    width: 64%;
+    height: 100%;
+    padding: 0;
+}
+
+nav{
+    border: 5px solid rgb(23, 100, 40);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 230px;
+    border-right: 5px solid black;
+    padding: 20px;
+}
+
+
+
+
+
