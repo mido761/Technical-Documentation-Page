@@ -1,29 +1,60 @@
-
 body{
-    grid-template-columns: 1fr 2fr;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 main{
-    border: 5px solid rgb(153, 22, 22);
-    position: absolute;
-    top: 0px;
-    margin-left: 33.5%;
-    width: 64%;
-    height: 100%;
-    padding: 0;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}
+p{
+    margin: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color:#4d4e53;
+    font-size: 15px;
 }
 
 nav{
-    border: 5px solid rgb(23, 100, 40);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 230px;
-    border-right: 5px solid black;
-    padding: 20px;
 }
+#fh{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0.6em;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+header{
+    font-size: 1.8rem;
+    margin: 0.7em;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.hbar{
+    border: 2px solid rgb(10, 10, 10);
+    list-style: none;
+    padding: 1em;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 5px;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.lih{
+    margin: 1em;
+    border-bottom:1px solid rgb(0, 0, 0) ;
+    margin: 0%;
+    padding: 0.8em;
+    padding-left: 30px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#4d4e53;
+}
+ul{
+    margin: 55px;
+    margin-top: 0px;
+    color:#4d4e53;
+    font-size: 15px;
 
-
-
-
-
+}
