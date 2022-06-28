@@ -11,29 +11,29 @@
 
 <body>
     <nav id="navbar">
-      <header>JS Documentation</header>
+      <header id="fh">JS Documentation</header>
 
-      <ul>
-        <li><a href="#Introduction" id="nav-link">Introduction</a></li>
-        <li><a href="#What you should already know" id="nav-link">What you should already know</a></li>
-        <li><a href="#JavaScript and Java" id="nav-link">JavaScript and Java</a></li>
-        <li><a href="#Hello world" id="nav-link">Hello world</a></li>
-        <li><a href="#Variables" id="nav-link">Variables</a></li>
-        <li><a href="#Declaring variables" id="nav-link">Declaring variables</a></li>
-        <li><a href="#Variable scope" id="nav-link">Variable scope</a></li>
-        <li><a href="#Global variables" id="nav-link">Global variables </a></li>
-        <li><a href="#Constants" id="nav-link">Constants</a></li>
-        <li><a href="#Data types" id="nav-link">Data types</a></li>
-        <li><a href="" id="nav-link">if...else statement </a></li>
-        <li><a href="" id="nav-link">while statement </a></li>
-        <li><a href="" id="nav-link">Function declarations </a></li>
-        <li><a href="" id="nav-link">Reference</a></li>
+      <ul class="hbar">
+        <li class="lih"><a href="#Introduction" id="nav-link">Introduction</a></li>
+        <li class="lih"><a href="#What you should already know" id="nav-link">What you should already know</a></li>
+        <li class="lih"><a href="#JavaScript and Java" id="nav-link">JavaScript and Java</a></li>
+        <li class="lih"><a href="#Hello world" id="nav-link">Hello world</a></li>
+        <li class="lih"><a href="#Variables" id="nav-link">Variables</a></li>
+        <li class="lih"><a href="#Declaring variables" id="nav-link">Declaring variables</a></li>
+        <li class="lih"><a href="#Variable scope" id="nav-link">Variable scope</a></li>
+        <li class="lih"><a href="#Global variables" id="nav-link">Global variables </a></li>
+        <li class="lih"><a href="#Constants" id="nav-link">Constants</a></li>
+        <li class="lih"><a href="#Data types" id="nav-link">Data types</a></li>
+        <li class="lih"><a href="" id="nav-link">if...else statement </a></li>
+        <li class="lih"><a href="" id="nav-link">while statement </a></li>
+        <li class="lih"><a href="" id="nav-link">Function declarations </a></li>
+        <li class="lih"><a href="" id="nav-link">Reference</a></li>
       </ul>
     </nav>
 
     <main id="main-doc">
         <section class="main-section">
-            <h1 id="Introduction">Introduction</h1>
+            <header id="Introduction">Introduction</header>
 
             <p>
                 JavaScript is a cross-platform, object-oriented scripting language. It
@@ -65,7 +65,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="What you should already know">What you should already know</h1>
+            <header id="What you should already know">What you should already know</header>
             <p>
                 This guide assumes you have the following basic background:
                 <br>
@@ -79,7 +79,7 @@
         </section>
         <br>
         <section class="main-section">
-            <h1 id="JavaScript and Java">JavaScript and Java</h1>
+            <header id="JavaScript and Java">JavaScript and Java</header>
             <p>
 
                 JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
@@ -103,7 +103,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Hello world">Hello world</h1>
+            <header id="Hello world">Hello world</header>
             <p>
                 To get started with writing JavaScript, open the Scratchpad and write your first "Hello world"
                 JavaScript code:
@@ -119,8 +119,8 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Variables">Variables
-            </h1>
+            <header id="Variables">Variables
+            </header>
             <p>
                 You use variables as symbolic names for values in your application. The names of variables, called
                 identifiers, conform to certain rules.
@@ -137,7 +137,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Declaring variables">Declaring variables</h1>
+            <header id="Declaring variables">Declaring variables</header>
             <p>
                 You can declare a variable in three ways:
                 <br><br>
@@ -163,7 +163,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Variable scope">Variable scope</h1>
+            <header id="Variable scope">Variable scope</header>
             <p>
                 When you declare a variable outside of any function, it is called a global variable, because it is
                 available to any other code in the current document. When you declare a variable within a function, it
@@ -190,7 +190,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Global variables">Global variables</h1>
+            <header id="Global variables">Global variables</header>
             <p>
                 Global variables are in fact properties of the global object. In web pages the global object is window,
                 so you can set and access global variables using the window.variable syntax.
@@ -203,8 +203,8 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Constants">Constants
-            </h1>
+            <header id="Constants">Constants
+            </header>
             <p>
                 You can create a read-only, named constant with the const keyword. The syntax of a constant identifier
                 is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can
@@ -236,7 +236,7 @@
         </section>
 
         <section class="main-section">
-            <h1 id="Data types">Data types</h1>
+            <header id="Data types">Data types</header>
             <p>
                 The latest ECMAScript standard defines seven data types:
                 <br><br>
@@ -265,27 +265,20 @@
             </ul>
 
             <br><br>
-            Although these data types are a relatively small amount, they enable you to perform useful functions
-            with your applications. Objects and functions are the other fundamental elements in the language. You
-            can think of objects as named containers for values, and functions as procedures that your application
-            can perform.
+            <p>
+                Although these data types are a relatively small amount, they enable you to perform useful functions
+                with your applications. Objects and functions are the other fundamental elements in the language. You
+                can think of objects as named containers for values, and functions as procedures that your application
+                can perform.
+            </p>
+
             <br><br>
             </p>
         </section>
-        <section class="main-section">
-            <h1></h1>
-            <p>
 
-            </p>
-        </section>
         <section class="main-section">
-            <h1>if...else statement</h1>
-            <p>
+            <header>If...else statement</header>
 
-            </p>
-        </section>
-        <section class="main-section">
-            <h1></h1>
             <p>
                 Use the if statement to execute a statement if a logical condition is true. Use the optional else clause
                 to execute a statement if the condition is false. An if statement looks as follows:
@@ -336,9 +329,9 @@
             </p>
         </section>
         <section class="main-section">
-            <h1>while statement
-            </h1>
-            <p></p>
+            <header>while statement
+            </header>
+            <p>
             A while statement executes its statements as long as a specified condition evaluates to true. A while
             statement looks as follows: <br><br>
             <code>                while (condition) statement
@@ -364,11 +357,15 @@
                 <li>After the second pass: n = 2 and x = 3</li>
                 <li>After the third pass: n = 3 and x = 6</li>
             </ul>
-            After completing the third pass, the condition n < 3 is no longer true, so the loop terminates. </p>
+            <p>
+                After completing the third pass, the condition <code>n < 3</code>  is no longer true, so the loop terminates.
+
+            </p>            
+            </p>
         </section>
         <section class="main-section">
-            <h1>Function declarations
-            </h1>
+            <header>Function declarations
+            </header>
             <p>
                 A function definition (also called a function declaration, or function statement) consists of the
                 function keyword, followed by:
@@ -381,37 +378,40 @@
                 <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.
                 </li>
             </ul>
-            <br><br>
-            For example, the following code defines a simple function named square:
-            <br><br>
-            <code>function square(number) { return number * number; }
-            </code>
-            <br><br>
-            The function square takes one argument, called number. The function consists of one statement that says to
-            return the argument of the function (that is, number) multiplied by itself. The return statement specifies
-            the value returned by the function.
-            <br><br>
-            <code>return number * number;
-            </code>
-            <br><br>
-            Primitive parameters (such as a number) are passed to functions by value; the value is passed to the
-            function, but if the function changes the value of the parameter, this change is not reflected globally or
-            in the calling function.
-            <br><br>
+            <p>
+                <br><br>
+                For example, the following code defines a simple function named square:
+                <br><br>
+                <code>function square(number) { return number * number; }
+                </code>
+                <br><br>
+                The function square takes one argument, called number. The function consists of one statement that says to
+                return the argument of the function (that is, number) multiplied by itself. The return statement specifies
+                the value returned by the function.
+                <br><br>
+                <code>return number * number;
+                </code>
+                <br><br>
+                Primitive parameters (such as a number) are passed to functions by value; the value is passed to the
+                function, but if the function changes the value of the parameter, this change is not reflected globally or
+                in the calling function.
+                <br><br>
+            </p>
+
             </p>
         </section>
         <section class="main-section">
-            <h1>Reference
-            </h1>
+            <header>Reference
+            </header>
             <p>
                 <ul>
-                    <li>                All the documentation in this page is taken from <br><a
+                    <li>                All the documentation in this page is taken from <br><a style="text-decoration:underline ; color:blue;"
                         href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
                 </ul>
-
+                                                                                 
             </p>
         </section>
-
+                    
     </main>
 </body>
 
