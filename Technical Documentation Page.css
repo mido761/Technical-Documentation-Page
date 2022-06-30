@@ -7,7 +7,7 @@ main{
     margin-bottom: 0;
 }
 p{
-    margin: 35px;
+    margin: 50px;
     margin-bottom: 15px;
     margin-top: 30px;
     color:#4d4e53;
@@ -24,11 +24,11 @@ nav{
 }
 header{
     font-size: 1.8rem;
-    margin: 0.7em;
+    margin: 0.8em;
     font-family: 'Open Sans', Arial, sans-serif;
 }
 .hbar{
-    border: 2px solid rgb(10, 10, 10);
+    /* border: 2px solid rgb(10, 10, 10); */
     list-style: none;
     padding: 1em;
     font-size: 16px;
@@ -41,7 +41,7 @@ header{
 }
 .lih{
     margin: 1em;
-    border-bottom:1px solid rgb(0, 0, 0) ;
+    border-top:1px solid rgb(0, 0, 0) ;
     margin: 0%;
     padding: 0.8em;
     padding-left: 30px;
@@ -56,5 +56,57 @@ ul{
     margin-top: 0px;
     color:#4d4e53;
     font-size: 15px;
+
+}
+
+@media (min-width:820px) {
+    body{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    nav{
+        border-right:3px solid rgba(0, 22, 22, 0.4);;
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 300px;
+        height: 100%;
+    }
+    #fh{
+        text-align: center;
+        font-size: 1.8em;
+        margin: 0.5em;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    .hbar{
+        /* border: 2px solid rgb(171, 47, 47); */
+        list-style: none;
+        padding: 1em;
+        font-size: 16px;
+        margin: 0%;
+        padding: 0%;
+        padding-top: 5px;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }
+    .lih{
+        border-top:0.5px solid rgb(43, 42, 42) ;
+        margin: 1em;
+        margin: 0%;
+        padding: 0.8em;
+        padding-left: 30px;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color:#4d4e53;
+    }
+
+    main{
+        margin-left: 310px;
+    }
 
 }
